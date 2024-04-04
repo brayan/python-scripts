@@ -2,15 +2,15 @@ import pyautogui
 import time
 
 while True:
-    time.sleep(5)
+    time.sleep(10)
 
     pyautogui.click(631, 872)
 
-    pyautogui.typewrite("A Elseeeee é uma toupeira...")
+    pyautogui.typewrite(".....")
 
     time.sleep(5)
 
-    for _ in range(28):
+    for _ in range(5):
         pyautogui.press("backspace")
     
-    time.sleep(5)
+    time.sleep(50)
