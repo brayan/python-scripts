@@ -10,6 +10,8 @@ while True:
 
     pyautogui.typewrite("abcde")
 
+    time.sleep(2)
+
     for _ in range(5):
         pyautogui.press("backspace")
     
